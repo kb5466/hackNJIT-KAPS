@@ -1,6 +1,4 @@
-body {
-    background-image: url('tropical_island.jpg');
-}
+@charset "UTF-8";
 h1 {
     background-color: gray;
 }
