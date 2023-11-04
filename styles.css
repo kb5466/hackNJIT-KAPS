@@ -2,3 +2,13 @@
 h1 {
     background-color: gray;
 }
+a{
+    background-color: gray;
+    font-family: Andale Mono, monospace;
+}
+a:link,a:visited,a:active{
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
