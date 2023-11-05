@@ -7,18 +7,23 @@
         a{
             border: 1.5px solid black;
             padding: 0.25em;
-            float: center;
-            z-index: 0;
+        }
+        #top_buttons {
+            margin: 0.5em 0em 2em 28em;
+        }
+        #bottom_buttons {
+            margin: 0.5em 0em 2em 30em;
         }
     </style>
     <body>
         <main>
             <h1>Castaway Cure</h1>
             <h2>KAPS Pirate Rescue</h2>
-            <section>
+            <section id="top_buttons">
                 <a class="home" href="index.html" style="text-decoration:none">Back to Start</a> |
                 <a class="Start Game" href="gameplay.html" style="text-decoration:none">Start Game</a>
-
+            </section>
+            <section id="content_navigation">
                 <h3>Contents</h3>
                 <a href="#disclaimer" style="text-decoration:none">Disclaimer</a> |
                     <a href="#getting_started" style="text-decoration:none">Getting Started</a> |
@@ -145,7 +150,9 @@
                         as cuts, bruises, broken bones, and even dismemberment.</p>
             </div>
         </main>
-        <a class="home" href="index.html" style="text-decoration:none">Back to Start</a> |
-        <a class="Start Game" href="gameplay.html" style="text-decoration:none">Start Game</a>
+        <section id="bottom_buttons">
+            <a class="home" href="index.html" style="text-decoration:none">Back to Start</a> |
+            <a class="Start Game" href="gameplay.html" style="text-decoration:none">Start Game</a>
+        </section>
     </body>
 </html>
