@@ -1,13 +1,6 @@
 @charset "UTF-8";
-a{
-    background-color: gray;
-    font-family: Andale Mono, monospace;
-}
 a:link,a:visited,a:active{
     color: white;
-}
-a:hover{
-    color: yellow;
 }
 #subtext{
     padding-bottom: -10px;
@@ -34,14 +27,18 @@ h2 {
     text-align: center;
 }
 a {
+    background-color: gray;
+    font-family: Andale Mono, monospace;
     border: 1.5px solid black;
     padding: 0.25em;
     float: center;
     z-index: 0;
+    text-align: center;
 }
 a:hover{
     border-color: yellow;
     border: 2.5px solid yellow;
+    color: yellow;
     padding: 20px;
 }
 @keyframes bounce {
