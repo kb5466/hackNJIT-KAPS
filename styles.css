@@ -1,7 +1,7 @@
 @charset "UTF-8";
 a{
     background-color: gray;
-    font-family: Andale Mono, monospace; 
+    font-family: Andale Mono, monospace;
 }
 a:link,a:visited,a:active{
     color: white;
@@ -16,20 +16,22 @@ a:hover{
     margin-left: 0px;
 }
 * {
-    text-align: center;
-    background-color: #72adcc;
+    background-color: #97d7fa;
 }
 h1 {
     font-family: Georgia, serif;
     font-size: 75;
+    text-align: center;
 }
 h2 {
     font-family: Georgia, serif;
     font-size: 50;
+    text-align: center;
 }
 #start_page {
     font-family: Verdana, sans-serif;
     font-size: 50;
+    text-align: center;
 }
 a {
     border: 1.5px solid black;
@@ -49,4 +51,23 @@ a:hover{
     50% {
       transform: translateY(-40px);
     }
+}
+
+main {
+    margin: 2em;
+    font-family: Mono, monospace; 
+}
+h3 {
+    font-size: 30;
+    background-color: #fff5be;
+    border: 2px dashed rgb(201, 201, 201);
+    padding: 0.25em;
+}
+p {
+    font-size: 18;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+}
+ol, li {
+    background-color: rgb(255, 255, 255);
 }
